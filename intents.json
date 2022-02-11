@@ -4,7 +4,7 @@
   "responses": ["Hey! I am Alan, Turing Club's virtual assistant. How can I can help you?", "Hello! I am Alan, Turing Club's virtual assistant. How can I can help you?"]
   },
   {"tag": "goodbye",
-   "patterns":["Goodbye", "Cya", "Bye", "Have a good day", "I am Leaving"],
+   "patterns":["Have a good day", "I am Leaving","Goodbye", "Cya", "Bye"],
    "responses": ["I hope to see you again later.", "Later!"]
   }
   ]}
