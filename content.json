@@ -1,19 +1,43 @@
-{ "intents": 
-  [
-    {"tag": "greetings",
-   "input": ["Hey", "Hello", "Hi", "Greetings"],
-   "responses": [
-     "Hey! I am Alan, Turing Club's virtual assistant. How can I can help you?", 
-     "Hello! I am Alan, Turing Club's virtual assistant. How can I can help you?"]
-    },
-    {"tag": "goodbye",
-   "input":["Have a good day", "I am Leaving", "Goodbye", "Cya", "Bye"],
-   "responses": [
-     "I hope to see you again later.", 
-     "Later!", 
-     "Have a nice day!"]
-    }
-  ]
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "input": [
+                "Hey",
+                "Hello",
+                "Hi",
+                "Greetings"
+            ],
+            "responses": [
+                "Hey! I am Alan, Turing Club's virtual assistant. How can I can help you?",
+                "Hello! I am Alan, Turing Club's virtual assistant. How can I can help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "input": [
+                "Have a good day",
+                "I am Leaving",
+                "Goodbye",
+                "Cya",
+                "Bye"
+            ],
+            "responses": [
+                "I hope to see you again later.",
+                "Later!",
+                "Have a nice day!"
+            ]
+        },
+        {
+            "tag": "How",
+            "input": [
+                "How are you?",
+                "How you doing"
+            ],
+            "responses": [
+                "I am good, what about you?",
+                "I am fine thankyou"
+            ]
+        }
+    ]
 }
-
-  
